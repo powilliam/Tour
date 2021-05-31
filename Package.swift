@@ -6,10 +6,8 @@ import PackageDescription
 let package = Package(
     name: "Tour",
     products: [
-        // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(
-            name: "Tour",
-            targets: ["Tour"]),
+        // Products define the executables and libraries a package produces, and make them visible to other packages.,
+        .executable(name: "main", targets: ["Tour"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
