@@ -22,3 +22,6 @@ do {
 let multiplier = tour.produceMultiplier(for: 5)
 let result = multiplier(5)
 print(result)
+
+let calculate = Math.make(as: .addition)
+print(calculate(5, 5))
